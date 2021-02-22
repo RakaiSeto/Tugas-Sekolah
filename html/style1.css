@@ -1,0 +1,65 @@
+#atas{
+    background: url(.png);
+    border:1px dashed transparent;
+padding: 5px;
+color: snow;
+background-color:darkblue;
+}
+#masuk ,a{
+color:floralwhite;
+margin-right: 100px;
+font-size: 12px;
+}
+#komen{
+ font-size: 12px;
+   color : darkslategrey;
+}
+#saya{
+font-size: 12px;
+color:blue;
+}
+#inputan{
+    width: 420px;
+    padding:10px;
+    font-size:16px;
+    border-radius:5px;
+}
+#nama {
+    width: 195px;
+    padding:10px;
+    font-size:16px;
+    border-radius:5px;
+    margin-right: 25px;
+}
+#tombol {
+width:200px;
+background-color:green;
+color:#fff;
+border:2px solid white;
+padding:4px;
+font-size:15px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+}
+#tombol:hover {
+            background-color:limegreen;
+            cursor: pointer;
+}
+#samping{
+    background: url("kontendaftar.jpg");
+}
+input[type=submit]{
+    background: darkblue;
+    color:white;
+}
+input[type=submit]:hover{
+background: royalblue
+}
+select{
+    width: 100px;
+    padding: 5px;
+}
+#tengah{
+    margin-right: 10px;
+}

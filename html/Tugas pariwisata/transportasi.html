@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/pariwisata.css">
+        <link rel="stylesheet" type="text/css" href="css/transportasi.css">
+    </head>
+    <body style="font-family: verdana; background-color: #069557;">
+        <div style="background-color: #f1f1f1;padding: 15px;">
+            <h1>Pariwisata Dunia</h1>
+            <h3>Wujudkan Mimpi Kita...</h3>
+        </div>
+        <div style="overflow: auto;">
+            <div class="menu">
+                <div class="menuitem"><a href="perjalanan.html">Perjalanan</a></div>
+                <div class="menuitem"><a href="transportasi.html">Transportasi</a></div>
+                <div class="menuitem"><a href="sejarah.html">Sejarah</a></div>
+                <div class="menuitem"><a href="galeri.html">Galeri</a></div>
+            </div>
+            <div class="main" style="margin-top:10px">
+                <div class="slideshow-container">
+                    <div class="Reok fade">
+                        <img src="img/unta.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/kuda.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/pedati.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/delman.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/becak.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/sepeda.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/bajaj.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/motor.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/mobil.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/bus.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/truck.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/pesawat.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                    <div class="Reok fade">
+                        <img src="img/kapal laut.jpg" style="width: 760px;height: 375px;">
+                    </div>
+                </div>
+                <br>
+                <div style="text-align: center;">
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                    <span class="titik"></span>
+                </div>
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+
+                    function showSlides()
+                    {
+                        var i;
+                        var slides =document.getElementsByClassName("Reok");
+                        var titiks = document.getElementsByClassName("titik");
+                        for (i = 0; i < slides.length; i++)
+                        {
+                            slides[i].style.display ="none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1
+                        }
+                        for (i = 0; i < titiks.length; i++)
+                        {
+                            titiks[i].className = titiks[i].className.replace("active", "");
+                        }
+                        slides[slideIndex-1].style.display= "block";
+                        titiks[slideIndex-1].className += "active";
+                        setTimeout(showSlides, 2000);
+                        //perubahan gambar dalam 2 detik//
+                    }
+                </script>
+            </div>
+            <div class="kanan">
+                <h2>Transportasi</h2>
+                <p align="justify">Untuk mencapai tempat wisata kita membutuhkan alat transportasi untuk menempuh perjalanan jarak jauh maupun dekat. <br>Alat trasportasi tab dibagi menjadi 2 yaitu :
+
+                </p>
+                <textarea cols="30" rows="8" disabled="disabled" wrap="soft">
+a. Transportasi Tradisional
+Pedati atau Gerobak Sapi
+Unta
+Kuda
+Delman
+Becak
+Sepeda
+
+b. Transportasi Modern
+Mobil
+Motor
+Truck
+Pesawat
+Helikopter
+Kereta Api
+Kapal Laut 
+                </textarea>
+            </div>
+        </div>
+        <div style="background-color: #f1f1f1; text-align: center;padding: 10px; margin-top: 7px;font-size: 12px;">
+            <marquee>copyright & copy;by Riza Oktavia 2021</marquee>
+        </div>
+    </body>
+</html>
