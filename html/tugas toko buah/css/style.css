@@ -17,6 +17,11 @@ body.not-mainmenu {
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
 .text-white{
     color: white !important;
     
@@ -36,7 +41,7 @@ body.not-mainmenu {
     text-align: center !important;
 }
 
-.menu-button:hover  {
+.menu-buah, .menu-button:hover  {
     background-color: white;
     color: black;
     cursor: pointer;
