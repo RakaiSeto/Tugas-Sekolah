@@ -43,7 +43,7 @@
                 if ($hasil) 
                     { header("location:index.php"); }
                 else 
-                    {echo "<div class='alert alert-danger>Data Gagal disimpan.</div>";
+                    {echo "<div class='alert alert-danger>Data Gagal disimpan.</div>";}
 
                     }
         ?>
@@ -59,7 +59,7 @@
             </div>
             <div class="form-group">
                 <label>Alamat:</label>
-                <textarea name="alamat" class="form-control" rows="5" placeholder="Masukkan Alamat" required>
+                <textarea name="alamat" class="form-control" rows="5" placeholder="Masukkan Alamat" required></textarea>
             </div>
             <div class="form-group">
                 <label>Email:</label>
